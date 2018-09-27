@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yycommon</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (NSString *)description {
+    return [self yy_modelDescription];
+}
+
+- (void)encodeWithCoder:(NSCoder *)coder {
+    [self yy_modelEncodeWithCoder:coder];
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder {
+    self = [super init];
+    if (self) {
+        [self yy_modelInitWithCoder:coder];
+    }
+    return self;
+}
+
+- (nonnull id)copyWithZone:(nullable NSZone *)zone {
+    return [self yy_modelCopy];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1EF08449-4007-4F64-B189-9CED1F701FDD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>oc - YYModel Copy Desc Encode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
