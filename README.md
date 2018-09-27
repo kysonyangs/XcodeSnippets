@@ -11,18 +11,18 @@ mac 里面所有的代码片段都在 `~/Library/Developer/Xcode/UserData/CodeSn
 重新打开 Xcode，在下图位置查看我们的代码片段
 
 Xcode 10 以上版本查看：
-![]()
+![](https://github.com/kysonyangs/XcodeSnippets/blob/master/snip/xcode10%2B.png)
 
 Xcode 10 以下版本查看：
-![]()
+![](https://github.com/kysonyangs/XcodeSnippets/blob/master/snip/xcode10-.png)
 
 ### About Objective-C
 所有 `oc -` 前缀的代码片段都是基于 Objective-C 使用的，用了我名字的缩写前缀 `ys`(YYModel 相关的使用 `yy` 前缀 )，具体使用如图：
-![]()
+![](https://github.com/kysonyangs/XcodeSnippets/blob/master/snip/oc-demo.gif)
 
 ### About Swift
 所有 `swift -` 前缀的代码片段都是基于 Swift 使用的，用了我名字的缩写+`sw`做前缀 `ys`，具体使用如图：
-![]()
+![](https://github.com/kysonyangs/XcodeSnippets/blob/master/snip/swift-demo.gif)
 
 ### 自己创建代码块
 
@@ -32,7 +32,7 @@ Xcode 10 以下版本查看：
 
 1. `Xcode 10+` 选中你想要制作代码块的代码，右键选择 `Create Code Snippet`, 弹出如下框，编辑对应信息即可。
 2. `Xcode 10-` 选中你想要制作代码块的代码，拖动到 `{}`中，弹出如下框，编辑对应信息即可。
-![]()
+![](https://github.com/kysonyangs/XcodeSnippets/blob/master/snip/createsnip.png)
 
 ### 最后
 喜欢的请给个 `Star` 吧！
