@@ -3,6 +3,13 @@
 这里是我平时使用到的代码片段，包含 Objective-C & Swift, 便于移植. 😁😆😆
 
 ## 如何将代码片段导入到Xcode
+
+### 使用仓库下面 auto_import.py 自动导入
+```
+python auto_import.py
+```
+
+### 手动导入
 mac 里面所有的代码片段都在 `~/Library/Developer/Xcode/UserData/CodeSnippets` 这个文件夹内，所以只要将仓库下面 `CodeSnippets` 文件夹里面的所有 CodeSnippet 文件拷贝到 mac 的 `~/Library/Developer/Xcode/UserData/CodeSnippets` 里面即可。
 
 如果在 mac 中没找到此文件夹，创建一个在拷贝文件到里面，或者直接拷贝我的 `CodeSnippets` 到 `~/Library/Developer/Xcode/UserData/` 路径下即可。

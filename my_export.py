@@ -4,8 +4,11 @@ import shutil
 target_path = os.path.expanduser("~/Library/Developer/Xcode/UserData/")
 code_snippet =  "CodeSnippets"
 
+choice = input('请输入是否覆盖同名文件：0.不覆盖 1.覆盖\n').strip()
+
 target_path_ = os.path.join(target_path, code_snippet)
 if not os.path.exists(target_path_):
+    print("Xcode 下没有 CodeSnippets 目录")
     exit()
 
 current_path = os.getcwd()
@@ -21,4 +24,4 @@ for file in f_list:
         print(old_path + "\n复制到\n"+ new_path)
 
 
-
+exit()

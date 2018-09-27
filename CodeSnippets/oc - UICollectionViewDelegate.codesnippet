@@ -12,7 +12,7 @@
 	<string>#pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [collectionView deselectItemAtIndexPath:indexPath animated:YES];
-    
+
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>36C10958-2598-4A1D-AE25-6375D68141D3</string>
