@@ -20,11 +20,13 @@
 	<string>42C80369-DC5A-4D06-8713-9C27CE4284D1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>oc - GCD async</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>oc - GCD async</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

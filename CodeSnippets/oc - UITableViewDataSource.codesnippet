@@ -18,16 +18,24 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#Identifier#&gt;];
     
     return cell;
+}
+
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E875ACC8-EC70-4631-BD7D-E87F4176A593</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>oc - UITableViewDataSource </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@weakify(&lt;#instance#&gt;);
-</string>
+	<string>@weakify(&lt;#instance#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F5107316-6DB8-458E-9E1A-FAE0B2D5944B</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -20,6 +19,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

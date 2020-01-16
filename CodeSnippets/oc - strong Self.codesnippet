@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong __typeof(&lt;#weakSelf#&gt;)strongSelf = &lt;#weakSelf#&gt;;
-</string>
+	<string>__strong __typeof(weakSelf)strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F48B406A-C4AF-47CE-A255-CF6B394347C5</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -20,6 +19,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

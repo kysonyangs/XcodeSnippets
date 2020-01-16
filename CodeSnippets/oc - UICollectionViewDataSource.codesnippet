@@ -18,16 +18,24 @@
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:&lt;#ReuseIdentifier#&gt; forIndexPath:indexPath];
     
     return cell;
+}
+
+#pragma mark - UICollectionViewDelegate
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    [collectionView deselectItemAtIndexPath:indexPath animated:YES];
+
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4544EF02-108A-410B-AB03-F3040529FF17</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>oc - UICollectionViewDataSource </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
